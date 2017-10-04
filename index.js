@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
 
   var i = 0;
 
-  while (i > facts.length) {
+  while (i < facts.length) {
     exclamationFacts.push(facts[i] + "!!!");
     i++;
   }
